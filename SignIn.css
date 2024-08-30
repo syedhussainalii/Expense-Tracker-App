@@ -1,0 +1,36 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f7f7f7; 
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.signin-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.signin-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4285f4; /* Google blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background-color: #357ae8; 
+}
+
+.btn:hover{
+  background-color: #357ae8;
+}
